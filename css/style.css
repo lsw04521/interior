@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 @media (min-width:1126px){
-
 #menu {display: none;}
 
 #wrap {width: 100%; height: auto; margin: 0;}
@@ -14,7 +13,7 @@
 .slider_text {width: 1126px; height: 700px; margin: 0 auto; padding-top: 160px; text-align: left; font-size:4rem; color: #fff;}
 .slider_text h1 {text-align: left; font-size:4rem; color: #fff;}
 
-#welcome {width: 100%; height: 300px; margin: 0 auto; text-align: center; align-content: center; padding-top: 55px; transform: translateY(100px); transition: all 2s; opacity: 0;}
+#welcome {width: 100%; height: 300px; margin: 0 auto; text-align: center; padding-top: 55px; transform: translateY(100px); transition: all 2s; opacity: 0;}
 #welcome p {color: #333;}
 
 #content {width: 1126px; height: 975px; margin: 0 auto;}
@@ -41,7 +40,7 @@
 
 #master {width: 100%; height: 220px; margin: 0 auto; text-align: center; padding-top: 55px; transform: translateY(100px); transition: all 2s; opacity: 0; background-color: #b2dfe1;}
 #master_background {max-width: 100%; height: 750px; margin: 0 auto; background-color: #b2dfe1;}
-.master_img_box {width: 1126px; height: 450px; margin: 0 auto;}
+.master_img_box {width: 1126px; height: 440px; margin: 0 auto;}
 .master_img {width: 335px; height: 450px; margin: 20px 20px; float: left;}
 .master_img img {width: 335px; height: 450px; transform: translateY(200px); transition: all 2s; opacity: 0;}
 .master_img img:hover {box-shadow: 15px 15px skyblue; transition: .2s;}
@@ -50,7 +49,7 @@
 .master_round img {width: 25px; height: 25px; border-radius: 5px; filter: invert(0); margin: 20px 5px; float: left;  cursor: pointer; background-color: white;}
 .master_round img:hover {box-shadow: 0px 0px 0px 0px; background-color: #35C5EF; transition: 1s;}
 
-#quetion {width: 100%; height: 240px; margin: 0 auto; align-content: center; text-align: center; padding-top: 50px; transform: translateY(100px); transition: all 2s; opacity: 0;}
+#quetion {width: 100%; height: 240px; margin: 0 auto; text-align: center; padding-top: 50px; transform: translateY(100px); transition: all 2s; opacity: 0;}
 .quetion_box {width: 1126px; height: 550px; margin: 0 auto; padding-top: 25px; transform: translateY(150px); transition: all 2s; opacity: 0;}
 .quetion_text {width: 626px; height: 550px; float: left; padding-top: 10px;}
 .quetion_btn1 {width: 400px; height: auto; cursor: pointer; margin: 15px; float: left;}
@@ -69,9 +68,10 @@
 
 #review {width: 100%; height: 200px; margin: 0 auto; align-content: center; text-align: center; padding-top: 50px; background-color: #f2f2f2; transform: translateY(100px); transition: all 2s; opacity: 0;}
 #review_background {width: 100%; height: 600px; background-color: #f2f2f2;}
-.review_box {width: 1126px; height: 500px; margin: 0 auto; background-color: #f2f2f2; text-align: center;}
+.review_show {width: 1110px; height: 510px; margin: 0 auto; overflow: hidden; background-color: gold;}
+.review_box {width: 1500px; height: 500px; margin: 0 auto; background-color: #f2f2f2; text-align: center;}
 
-.review_box li {width: 335px; height: auto; margin: 0px 20px; float: left;}
+.review_box li {width: 335px; height: auto; margin: 0px 19px; float: left;}
 .review_box li img {width: 150px; height: 150px; margin-top: 50px; border-radius: 25%; border: 6px solid #7ddcf8;}
 
 .review_text1 {width: 335px; height: 258px; background-color: #fff; border-radius: 10px; border: 6px solid #7ddcf8; text-align: center; padding: 37px; box-shadow: 1px 1px 6px 1px #333; color: 000; font-weight: bold; cursor: default; 
@@ -80,6 +80,8 @@
     transform: translateY(150px); transition: all 2s; opacity: 0;}
 .review_text3 {width: 335px; height: 258px; background-color: #fff; border-radius: 10px; border: 6px solid #7ddcf8; text-align: center; padding: 37px; box-shadow: 1px 1px 6px 1px #333; color: 000; font-weight: bold; cursor: default; 
     transform: translateY(150px); transition: all 2s; opacity: 0;}
+.review_text4 {width: 335px; height: 258px; background-color: #fff; border-radius: 10px; border: 6px solid #7ddcf8; text-align: center; padding: 37px; box-shadow: 1px 1px 6px 1px #333; color: 000; font-weight: bold; cursor: default; 
+        transform: translateY(150px); transition: all 2s; opacity: 0;}
 
 .review_btn_box {width: 100%; height: 30px; display: flex; justify-content: center; float: left; margin-top: 30px;}
 
