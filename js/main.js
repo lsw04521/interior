@@ -62,6 +62,7 @@ $(function () {
             $('.review_text1').css("transform", "translateY(0px)").css("opacity", "1");
             $('.review_text2').css("transform", "translateY(0px)").css("opacity", "1");
             $('.review_text3').css("transform", "translateY(0px)").css("opacity", "1");
+            $('.review_text4').css("transform", "translateY(0px)").css("opacity", "1");
             $('.review_img').css("transform", "translateY(0px)").css("opacity", "1");
         }
     });
