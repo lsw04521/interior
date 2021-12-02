@@ -3,7 +3,7 @@
     #wrap {width: 100%; height: auto; margin: 0;}
     #warp p {color: #333;}
     
-    #menu {width: 200px; height: 450px; float: right; background-position: center; background-size: contain; background-color: #fff; box-shadow: 1px 0px 2px 0px; display: none;}
+    #menu {width: 150px; height: 450px; float: right; background-position: center; background-size: contain; background-color: #fff; box-shadow: 1px 0px 2px 0px; display: none;}
     .cancel {cursor: pointer; float: right;}
     .list {display: block; cursor: pointer;}
     
@@ -14,7 +14,7 @@
     #welcome {width: 100%; height: 300px; margin: 0 auto; text-align: center; padding-top: 55px;}
     #welcome p {color: #333;}
     
-    #content {width: 100%; height: auto; margin: 0 auto; display: flex; flex-direction: column; margin-left: 5%;}
+    #content {width: 100%; height: auto; margin: 0 auto; display: flex; flex-direction: column; padding-left: 10%;}
 
     .content_1 {width:100%; height: auto;}
     .c1_text {float: left; width: 90%; height: 300px; padding-top: 60px;}
@@ -28,7 +28,7 @@
     .content_2 img:hover {box-shadow: 10px 10px skyblue; transition: .2s;}
     
     .content_3 {width:100%; height: auto;}
-    .c3_text {float: left; width: 90%; height: 300px; padding-top: 60px; transform: translateX(100px);}
+    .c3_text {float: left; width: 90%; height: 300px; padding-top: 60px;}
     .content_3 img {width: 90%; height: 300px; float: left;}
     .content_3 img:hover {box-shadow: 10px 10px skyblue; transition: .2s;}
     
@@ -38,19 +38,19 @@
     .cbtn:hover {background-color: black; transition: .2s;}
     
     #master {width: 100%; height: 220px; margin: 0 auto; text-align: center; padding-top: 55px; background-color: #b2dfe1;}
-    #master_background {width: 100%; height: 2050px; margin: 0 auto; background-color: #b2dfe1; display: flex; flex-direction: column;}
-    .master_img_box {width: 90%; height: auto; margin: 0 auto; margin-left: 10%;}
+    #master_background {width: 100%; height: 2050px; margin: 0 auto; background-color: #b2dfe1; display: flex; flex-direction: column; padding-left: 7.5%;}
+    .master_img_box {width: 90%; height: auto; margin: 0 auto;}
     .master_img {width: 90%; height: 450px; margin: 20px 20px;}
     .master_img img {width: 90%; height: 450px;}
     .master_img img:hover {box-shadow: 15px 15px skyblue; transition: .2s;}
     
-    .master_text {width: 335px; height: 210px; margin: 0px 20px; padding-top: 10px; float: left;}
+    .master_text {width: 335px; height: 210px; padding-top: 10px; float: left;}
     .master_round img {width: 25px; height: 25px; border-radius: 5px; filter: invert(0); float: left; margin: 20px 5px; cursor: pointer; background-color: white;}
     .master_round img:hover {box-shadow: 0px 0px 0px 0px; background-color: #35C5EF; transition: 1s;}
     
     #quetion {width: 100%; height: 240px; margin: 0 auto; text-align: center; padding-top: 50px;}
-    .quetion_box {width: 90%; height: 1000px; margin: 0 auto; padding-top: 25px; margin-left: 5%;}
-    .quetion_text {width: 90%; height: 550px; float: left; padding-top: 10px;}
+    .quetion_box {width: 90%; height: 900px; margin: 0 auto; padding-top: 25px;}
+    .quetion_text {width: 90%; height: auto; float: left; padding-top: 10px;}
     .quetion_btn1 {width: 400px; height: auto; cursor: pointer; margin: 15px; float: left;}
     .quetion_btn1:hover {color: #35C5EF; transition: .4s;}
     .quetion_btn2 {width: 400px; height: auto; cursor: pointer; margin: 15px; float: left;}
@@ -63,20 +63,24 @@
     .quetion_a2 {width: 400px; height: auto; margin: 15px; display: none; color: #333;}
     .quetion_a3 {width: 400px; height: auto; margin: 15px; display: none; color: #333;}
     .quetion_a4 {width: 400px; height: auto; margin: 15px; display: none; color: #333;}
-    .quetion_box img {width: 90%; height: 350px; float: left; margin-left: 5%;}
+    .quetion_box img {width: 90%; height: 350px; padding-left: 10%; padding-top: 40px;}
     
-    #review {width: 100%; height: 200px; margin: 0 auto; text-align: center; padding-top: 50px; background-color: #f2f2f2;}
+    #review {width: 100%; height: 200px; margin: 0 auto; align-content: center; text-align: center; padding-top: 50px; background-color: #f2f2f2; transform: translateY(100px); transition: all 2s; opacity: 0;}
     #review_background {width: 100%; height: 600px; background-color: #f2f2f2;}
-    .review_box {width: 100%; height: auto; margin: 0 auto; background-color: #f2f2f2; text-align: center;}
+    .review_show {width: 375px; height: 510px; margin: 0 auto; overflow: hidden;}
+    .review_box {width: 1500px; height: 500px; margin: 0 auto; background-color: #f2f2f2; text-align: center; padding-top: 5px;}
     
-    .review_box li {width: 100%; height: 508px;}
+    .review_box li {width: 335px; height: auto; margin: 0px 19px; float: left; transform: translateY(150px); transition: all 2s; opacity: 0;}
     .review_box li img {width: 150px; height: 150px; margin-top: 50px; border-radius: 25%; border: 6px solid #7ddcf8;}
     
-    .review_text1 {width: 90%; height: 258px; background-color: #fff; border-radius: 10px; border: 6px solid #7ddcf8; text-align: center; padding: 37px; box-shadow: 1px 1px 6px 1px #333; color: 000; font-weight: bold; cursor: default;}
-    .review_text2 {width: 90%; height: 258px; background-color: #fff; border-radius: 10px; border: 6px solid #7ddcf8; text-align: center; padding: 37px; box-shadow: 1px 1px 6px 1px #333; color: 000; font-weight: bold; cursor: default;}
-    .review_text3 {width: 90%; height: 258px; background-color: #fff; border-radius: 10px; border: 6px solid #7ddcf8; text-align: center; padding: 37px; box-shadow: 1px 1px 6px 1px #333; color: 000; font-weight: bold; cursor: default;}
-    .second {display: none;}
-    .thrid {display: none;}
+    .review_text1 {width: 335px; height: 258px; background-color: #fff; border-radius: 10px; border: 6px solid #7ddcf8; text-align: center; padding: 37px; box-shadow: 1px 1px 6px 1px #333; color: 000; font-weight: bold; cursor: default; 
+    }
+    .review_text2 {width: 335px; height: 258px; background-color: #fff; border-radius: 10px; border: 6px solid #7ddcf8; text-align: center; padding: 37px; box-shadow: 1px 1px 6px 1px #333; color: 000; font-weight: bold; cursor: default; 
+    }
+    .review_text3 {width: 335px; height: 258px; background-color: #fff; border-radius: 10px; border: 6px solid #7ddcf8; text-align: center; padding: 37px; box-shadow: 1px 1px 6px 1px #333; color: 000; font-weight: bold; cursor: default; 
+    }
+    .review_text4 {width: 335px; height: 258px; background-color: #fff; border-radius: 10px; border: 6px solid #7ddcf8; text-align: center; padding: 37px; box-shadow: 1px 1px 6px 1px #333; color: 000; font-weight: bold; cursor: default; 
+    }
 
     .review_btn_box {width: 100%; height: 30px; display: flex; justify-content: center; float: left; margin-top: 30px;}
     

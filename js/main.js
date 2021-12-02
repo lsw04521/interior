@@ -59,11 +59,10 @@ $(function () {
             $('#review').css("transform", "translateY(0px)").css("opacity", "1");
         }
         if (ws > 3050) {
-            $('.review_text1').css("transform", "translateY(0px)").css("opacity", "1");
-            $('.review_text2').css("transform", "translateY(0px)").css("opacity", "1");
-            $('.review_text3').css("transform", "translateY(0px)").css("opacity", "1");
-            $('.review_text4').css("transform", "translateY(0px)").css("opacity", "1");
-            $('.review_img').css("transform", "translateY(0px)").css("opacity", "1");
+            $('.first').css("transform", "translateY(0px)").css("opacity", "1");
+            $('.second').css("transform", "translateY(0px)").css("opacity", "1");
+            $('.thrid').css("transform", "translateY(0px)").css("opacity", "1");
+            $('.fourth').css("transform", "translateY(0px)").css("opacity", "1");
         }
     });
 });
