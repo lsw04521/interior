@@ -21,30 +21,35 @@
 
 <body>
     <div id="wrap">
-        <div id="menu">
-            <div class="cancel"><img src="img/cancle.png" alt="cansle" style="width: 48px; height: 48px;"></div>
-            <nav>
-                <ul>
-                    <li><a href="#">이벤트</a></li>
-                    <li><a href="#">인테리어</a></li>
-                    <li><a href="#">커뮤니티</a></li>
-                    <li><a href="#">스토어</a></li>
-                    <li><a href="#">Home</a></li>
-                </ul>
-            </nav>
-        </div>
         <header>
-            <div class="logo"><a href="index.html"><img src="img/logo.JPG" alt="logo"></a></div>
-            <img src="img/list.png" class="list">
-            <nav class="b">
-                <ul>
-                    <li><a href="#"><b>Home</b></a></li>
-                    <li><a href="#">스토어</a></li>
-                    <li><a href="#">커뮤니티</a></li>
-                    <li><a href="#">인테리어</a></li>
-                    <li><a href="#">이벤트</a></li>
-                </ul>
-            </nav>
+            <div class="small">
+
+                <div class="logo"><a href="index.html"><img src="img/logo.JPG" alt="logo"></a></div>
+
+                <nav id="a">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">스토어</a></li>
+                        <li><a href="#">커뮤니티</a></li>
+                        <li><a href="#">인테리어</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </nav>
+
+                <img src="img/list.png" id="b" onclick="openNav()">
+
+            </div>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/cancle.png" alt="cancle"></a>
+
+                <div class="overlay-content">
+                    <a href="#">HOME</a>
+                    <a href="#">스토어</a>
+                    <a href="#">커뮤니티</a>
+                    <a href="#">인테리어</a>
+                    <a href="#">이벤트</a>
+                </div>
+            </div>
         </header>
 
         <div id="slider_background">
@@ -201,59 +206,63 @@
 
         <div id="review_background">
             <div class="review_show">
-            <ul class="review_box">
-                <li class="first">
-                    <div class="review_text1">
-                        <p>★★★★★</p>
+                <ul class="review_box">
+                    <li class="first">
+                        <div class="review_text1">
+                            <p>★★★★★</p>
+                            <br>
+                            <p>오늘의 집을 통해 여러군데 상담 신청했었는데 응답 속도가 가장 빨랐어요! 견적받고 세부 내용 및 금액에 대해서도 애매하게 얘기하지 않고 정확하게 말씀해주셔서
+                                ...
+                            </p>
+                        </div>
+                        <img src="img/first.jpeg" alt="first">
                         <br>
-                        <p>오늘의 집을 통해 여러군데 상담 신청했었는데 응답 속도가 가장 빨랐어요! 견적받고 세부 내용 및 금액에 대해서도 애매하게 얘기하지 않고 정확하게 말씀해주셔서 ...
-                        </p>
-                    </div>
-                    <img src="img/first.jpeg" alt="first">
-                    <br>
-                    <br>
-                    <h3>디자인스토리</h3>
-                </li>
+                        <br>
+                        <h3>디자인스토리</h3>
+                    </li>
 
-                <li class="second">
-                    <div class="review_text2">
-                        <p>★★★★★</p>
+                    <li class="second">
+                        <div class="review_text2">
+                            <p>★★★★★</p>
+                            <br>
+                            <p>스타일부터 자재까지 직접 고를수있어서 매우좋았습니다. 설계부터시공이 끝날때까지 지속적으로 매일매일 피드백해주신 부분 또한 좋았으며, 결재내역 공개로 매...
+                            </p>
+                        </div>
+                        <img src="img/second.jpeg" alt="second">
                         <br>
-                        <p>스타일부터 자재까지 직접 고를수있어서 매우좋았습니다. 설계부터시공이 끝날때까지 지속적으로 매일매일 피드백해주신 부분 또한 좋았으며, 결재내역 공개로 매...</p>
-                    </div>
-                    <img src="img/second.jpeg" alt="second">
-                    <br>
-                    <br>
-                    <h3>더라이브러리</h3>
-                </li>
+                        <br>
+                        <h3>더라이브러리</h3>
+                    </li>
 
-                <li class="thrid">
-                    <div class="review_text3">
-                        <p>★★★★★</p>
+                    <li class="thrid">
+                        <div class="review_text3">
+                            <p>★★★★★</p>
+                            <br>
+                            <p>처음 해보는 인테리어였는데 좋은 사장님 만나서 예쁜집 만들 수 있었던 것 같아요! 진솔하고 꼼꼼하시고 책임감 있으시고... 특히 제가 후드일체형인덕션이라는
+                                까다...
+                            </p>
+                        </div>
+                        <img src="img/thrid.jpeg" alt="thrid">
                         <br>
-                        <p>처음 해보는 인테리어였는데 좋은 사장님 만나서 예쁜집 만들 수 있었던 것 같아요! 진솔하고 꼼꼼하시고 책임감 있으시고... 특히 제가 후드일체형인덕션이라는 까다...
-                        </p>
-                    </div>
-                    <img src="img/thrid.jpeg" alt="thrid">
-                    <br>
-                    <br>
-                    <h3>DOODEE 두디</h3>
-                </li>
+                        <br>
+                        <h3>DOODEE 두디</h3>
+                    </li>
 
-                <li class="fourth">
-                    <div class="review_text4">
-                        <p>★★★★★</p>
+                    <li class="fourth">
+                        <div class="review_text4">
+                            <p>★★★★★</p>
+                            <br>
+                            <p>제가 제안하였던 안 보다 확장된 디자인들을 많이 제안해주셔서 집을 꾸미는데 훨씬 더 수월하였습니다. 업체를 선정하기 전에 다른 여러 업체들과 상담할 때 제가
+                                제안하였던...
+                            </p>
+                        </div>
+                        <img src="img/fourth.jpeg" alt="fourth">
                         <br>
-                        <p>제가 제안하였던 안 보다 확장된 디자인들을 많이 제안해주셔서 집을 꾸미는데 훨씬 더 수월하였습니다. 업체를 선정하기 전에 다른 여러 업체들과 상담할 때 제가 제안하였던...
-                        </p>
-                    </div>
-                    <img src="img/fourth.jpeg" alt="fourth">
-                    <br>
-                    <br>
-                    <h3>큰다ㅣKEUNDA</h3>
-                </li>
-            </ul>
-        </div>
+                        <br>
+                        <h3>큰다ㅣKEUNDA</h3>
+                    </li>
+                </ul>
+            </div>
             <div class="review_btn_box">
                 <div class="review_left"><img src="img/left.png"></div>
                 <div class="review_right"><img src="img/right.png"></div>
@@ -319,7 +328,7 @@
             <div id="foot_box_c">
                 <hr><br>
                 <br>
-                <p>Copyright 2014. bucketplace, Co., Ltd. All rights reserved</p>
+                <p>Copyright 2021. bucketplace, Co., Ltd. All rights reserved</p>
             </div>
         </div>
 

@@ -1,13 +1,9 @@
 @charset "UTF-8";
 
 @media (min-width:1126px){
-#menu {display: none;}
 
 #wrap {width: 100%; height: auto; margin: 0;}
 #warp p {color: #333;}
-
-.list {display: none; float: right;}
-.cancel {display: none;}
 
 #slider_background {max-width: 100%; height: 750px; background-image: url(../img/slider.jpeg); background-position: center; background-size: cover;}
 .slider_text {width: 1126px; height: 700px; margin: 0 auto; padding-top: 160px; text-align: left; font-size:4rem; color: #fff;}

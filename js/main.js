@@ -96,10 +96,12 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $(".list").click(function () {
-        $("#menu").fadeIn()
+        $("#menu").show()
+        $(".list").hide()
     });
     $(".cancel").click(function () {
-        $("#menu").fadeOut()
+        $("#menu").hide()
+        $(".list").show()
     });
 });
 
@@ -151,3 +153,11 @@ $(function(){
         right();
     });
 });
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
