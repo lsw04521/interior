@@ -43,7 +43,7 @@
 .master_img_box {width: 1126px; height: 440px; margin: 0 auto;}
 .master_img {width: 335px; height: 450px; margin: 20px 20px; float: left;}
 .master_img img {width: 335px; height: 450px; transform: translateY(200px); transition: all 2s; opacity: 0;}
-.master_img img:hover {box-shadow: 15px 15px skyblue; transition: .2s;}
+.master_img img:hover {box-shadow: 12px 12px skyblue; transition: .2s;}
 
 .master_text {width: 335px; height: 210px; float: left; text-align: left; padding-top: 10px; transform: translateY(200px); transition: all 3s; opacity: 0;}
 .master_round img {width: 25px; height: 25px; border-radius: 5px; filter: invert(0); margin: 20px 5px; float: left;  cursor: pointer; background-color: white;}
