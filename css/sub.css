@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#slide {width: 100%; height: 450px; background-image: url(../img/sub_slide.JPG); background-position: center; background-size: cover; text-align: center; color: #fff; font-size: 2rem; padding-top: 70px;}
+
+#wrap {width: 1126px; height: auto; margin: 0 auto; padding-top: 6%;}
+
+#left {width: 70%; height: auto; margin: 0 auto; float: left;}
+#left p {color: #444;}
+
+#right {width: 24%; height: 850px; margin: 0 auto; float: right; background-color: plum;}
+
+.ct img {width: 100%; height: 550px; margin: 0 auto; float: left; border-radius: 4%; margin-bottom: 50px;}
+
+.date {width: 30%; height: auto; float: left; margin: 0 auto;}
+.date img {width: 35px; height: 35px; display: flex; flex-direction: column;}
+
+#conte1 {width: 100%; height: auto; margin: 0 auto; float: left;}
+.conte {width: 70%; height: auto; float: right; margin: 0 auto;}
+.conte h2 {color: #222; cursor: pointer;}
+.conte h2:hover {color: #35C5EF; transition: .3s;}
+
+#conte2 {width: 100%; height: auto; margin: 0 auto; float: left;}
+.conte2 {width: 70%; height: auto; float: right; margin: 0 auto;}
+.conte2 h2 {color: #222; cursor: pointer;}
+.conte2 h2:hover {color: #35C5EF; transition: .3s;}
+
+.cbtn {width: 150px; height: 40px; background-color: #35C5EF; float: left; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px; cursor: pointer;}
+.cbtn:hover {background-color: #000; transition: .3s;}
+
+.push {width: 100%; height: 25px; float: right;}
+
+.ho img {width: 100%; height: 550px; margin: 0 auto; float: left; border-radius: 4%; margin-bottom: 50px;}
+
+#c_box {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: flex-start;}
+.c_left {width: 48%; height: auto;}
+.c_left h2 {color: #222; cursor: pointer; transition: .3s;}
+.c_left h2:hover {color: #35C5EF;}
+.ce1 {width: 100%; height: auto;}
+.c_right {width: 48%; height: auto;}
