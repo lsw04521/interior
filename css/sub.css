@@ -1,25 +1,23 @@
 @charset "UTF-8";
 
-#slide {width: 100%; height: 450px; background-image: url(../img/sub_slide.JPG); background-position: center; background-size: cover; text-align: center; color: #fff; font-size: 2rem; padding-top: 70px;}
+#slide {width: 100%; height: 425px; background-image: url(../img/sub_slide.JPG); background-position: center; background-size: cover; text-align: center; color: #fff; font-size: 2rem; padding-top: 100px;}
 
 #wrap {width: 1126px; height: auto; margin: 0 auto; padding-top: 6%;}
 
 #left {width: 70%; height: auto; margin: 0 auto; float: left;}
-#left p {color: #444;}
+.p {color: #444;}
 
-#right {width: 24%; height: 850px; margin: 0 auto; float: right; background-color: plum;}
-
-.ct img {width: 100%; height: 550px; margin: 0 auto; float: left; border-radius: 4%; margin-bottom: 50px;}
+.ct img {width: 100%; height: 550px; margin: 0 auto; float: left; margin-bottom: 50px;}
 
 .date {width: 30%; height: auto; float: left; margin: 0 auto;}
 .date img {width: 35px; height: 35px; display: flex; flex-direction: column;}
 
-#conte1 {width: 100%; height: auto; margin: 0 auto; float: left;}
+#conte1 {width: 100%; height: auto; margin: 0 auto; float: left; margin-bottom: 70px;}
 .conte {width: 70%; height: auto; float: right; margin: 0 auto;}
 .conte h2 {color: #222; cursor: pointer;}
 .conte h2:hover {color: #35C5EF; transition: .3s;}
 
-#conte2 {width: 100%; height: auto; margin: 0 auto; float: left;}
+#conte2 {width: 100%; height: auto; margin: 0 auto; float: left; margin-bottom: 70px;}
 .conte2 {width: 70%; height: auto; float: right; margin: 0 auto;}
 .conte2 h2 {color: #222; cursor: pointer;}
 .conte2 h2:hover {color: #35C5EF; transition: .3s;}
@@ -27,13 +25,43 @@
 .cbtn {width: 150px; height: 40px; background-color: #35C5EF; float: left; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px; cursor: pointer;}
 .cbtn:hover {background-color: #000; transition: .3s;}
 
-.push {width: 100%; height: 25px; float: right;}
+.push {width: 100%; height: 25px; float: right; display: flex;}
+.push img {cursor: pointer;}
+.pb {color: #000;}
 
 .ho img {width: 100%; height: 550px; margin: 0 auto; float: left; border-radius: 4%; margin-bottom: 50px;}
 
-#c_box {width: 100%; height: auto; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: flex-start;}
+#c_box {width: 100%; height: 1700px; display: flex; flex-flow: row wrap; justify-content: space-between; align-content: flex-start;}
+#c_box h2 {color: #222; cursor: pointer; transition: .3s;}
+#c_box h2:hover {color: #35C5EF;}
+
 .c_left {width: 48%; height: auto;}
-.c_left h2 {color: #222; cursor: pointer; transition: .3s;}
-.c_left h2:hover {color: #35C5EF;}
-.ce1 {width: 100%; height: auto;}
+.c_left img {width: 100%; height: auto; border-radius: 5%;}
+
 .c_right {width: 48%; height: auto;}
+.c_right img {width: 100%; height: auto; border-radius: 5%;}
+
+.mbtn {color: #35C5EF; cursor: pointer; transition: .3s;}
+.mbtn:hover {color: #000;}
+
+#right {width: 24%; height: 1500px; margin: 0 auto; float: right; background-color: beige;}
+
+#search {width:80%; height:45px; color: #000; border: 2px solid #35C5EF; padding-left: 10px; float: left; margin-right: 5px;}
+.search {width: 100%; height: auto; float: left; background-color: #fff; cursor: pointer;}
+.search img {width: 18%; height: 45px; border: 2px solid #35C5EF;}
+
+.blue {color: #35C5EF;}
+.categoreis {width: 100%; height: 375px; float: left;}
+.category {color: #555; line-height: 2.5; cursor: pointer;}
+.category li:hover {color: #000; transition: .5s;}
+
+.post {width: 100%; height: 350px; float: left;}
+.post_box {width: 100%; height: auto; display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;}
+.post_box img {width: 80px; height: 80px; border-radius: 50%;}
+
+.today {width: 100%; height: auto; float: left; border-radius: 15px; margin-bottom: 50px;}
+
+.instagram {width: 100%; height: auto; float: left;}
+.instagram img {width: 29%; height: 75px; margin: 5px 5px; float: left;}
+
+.tag {width: 100%; height: auto; float: left;}
