@@ -67,10 +67,12 @@
 
 .today {width: 100%; height: auto; float: left; border-radius: 15px; margin-bottom: 50px;}
 
-.instagram {width: 100%; height: auto; float: left;}
+.instagram {width: 100%; height: 300px; float: left;}
 .instagram img {width: 48%; height: 75px; margin: 1px; float: left;}
 .instagram img:hover {opacity: 0.7;}
 
-.tag {width: 100%; height: auto; float: left;}
+.tag {width: 100%; height: auto; float: left; padding-left: 5px;}
+.tage li a {width: auto; height: 30px; border: 1px solid #35C5EF; border-radius: 10px; float: left; margin: 5px; padding-top: 3px;}
+.tage li a:hover {background-color: #000; transition: .3s;}
 
 }
