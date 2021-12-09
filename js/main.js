@@ -3,7 +3,7 @@ $(function () {
 
         var ws = $(this).scrollTop();
 
-        // 환영
+        // welcome
         if (ws > 100) {
             $('#welcome').css("transform", "translateY(0px)").css("opacity", "1");
         }
@@ -67,6 +67,7 @@ $(function () {
     });
 });
 
+//Q&A
 $(document).ready(function () {
     $(".quetion_btn1").click(function () {
         $(".quetion_a1").slideToggle()
@@ -91,17 +92,6 @@ $(document).ready(function () {
         $(".quetion_a2").slideUp()
         $(".quetion_a3").slideUp()
         $(".quetion_a1").slideUp()
-    });
-});
-
-$(document).ready(function () {
-    $(".list").click(function () {
-        $("#menu").show()
-        $(".list").hide()
-    });
-    $(".cancel").click(function () {
-        $("#menu").hide()
-        $(".list").show()
     });
 });
 
