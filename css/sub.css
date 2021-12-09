@@ -64,7 +64,7 @@
 .today {width: 100%; height: auto; float: left; border-radius: 15px; margin-bottom: 50px;}
 
 .instagram {width: 100%; height: auto; float: left; padding-left: 5px;}
-.instagram img {width: 31%; height: 75px; margin: 3px float: left;}
+.instagram img {width: 31%; height: 75px; margin: 3px; float: left;}
 .instagram img:hover {opacity: 0.7;}
 
 .tag {width: 100%; height: auto; float: left;}
