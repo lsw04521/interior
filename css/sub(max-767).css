@@ -2,7 +2,11 @@
 
 @media (max-width:767px) {
 
-#slide {width: 100%; height: 350px; background-image: url(../img/sub_slide.JPG); background-position: center; background-size: cover; text-align: center; color: #fff; padding-top: 100px;}
+    #slide {width: 100%; height: 375px; padding-top: 10%; background-image: url(../img/sub_slide.JPG); background-position: center; background-size: cover; text-align: center; color: #fff; font-size: 2rem;}
+
+    .sbtn {width: 150px; height: 40px; background-color: #35C5EF; float: left; font-size: 18px; border-radius: 25px; color: #fff; padding-top: 7px; cursor: pointer; text-align: center; float: left; margin: 20px;}
+    .sbtn:hover {background-color: #000; transition: .3s;}
+    .sbtn_background {width: 100%; height: 40px; margin: 0 auto; float: left; display: flex; justify-content: center;}
 
 #wrap {width: 100%; height: auto; margin: 0 auto; padding-top: 6%; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start;}
 
