@@ -95,49 +95,33 @@ $(document).ready(function () {
     });
 });
 
-
 //review
 $(function(){
     function left() {
-
         $('.review_box li:last').prependTo('.review_box');
         $('.review_box').css('margin-left', -373);
         $('.review_box').stop().animate({ marginLeft: 0 }, 800);
     }
-    
-    
-    
+
     function right() {
-    
         $('.review_box').stop().animate({ marginLeft: -373 }, 800,function () {
             $('.review_box li:first').appendTo('.review_box');
             $('.review_box').css({ marginLeft: 0 });
         });
-    
     }
     
-    
-    
     function slide() {
-    
         $('.review_box').stop().animate({ marginLeft: -373 },800, function () {
             $('.review_box li:first').appendTo('.review_box');
             $('.review_box').css({ marginLeft: 0 });
         });
-    
     }
     
-    
-    
     setInterval(slide, 5000);
-    
-    
     
     $('.review_left').click(function(){
         left();
     });
-    
-    
     
     $('.review_right').click(function(){
         right();
@@ -146,7 +130,6 @@ $(function(){
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
   }
-
 
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
