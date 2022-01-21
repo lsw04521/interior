@@ -4,8 +4,8 @@
 
 #slide {width: 100%; height: 450px; padding-top: 125px; background-image: url(../img/sub_slide.JPG); background-position: center; background-size: cover; text-align: center; color: #fff; font-size: 2rem;}
 
-.sbtn {width: 150px; height: 40px; background-color: #35C5EF; float: left; font-size: 18px; border-radius: 25px; color: #fff; padding-top: 7px; cursor: pointer; text-align: center; float: left; margin: 20px;}
-.sbtn:hover {background-color: #000; transition: .3s;}
+.sbtn {width: 150px; height: 40px; background-color: #35C5EF; float: left; font-size: 18px; border-radius: 25px; color: #fff; padding-top: 7px; cursor: pointer; text-align: center; float: left; margin: 20px; transition: .3s;}
+.sbtn:hover {background-color: #000;}
 .sbtn_background {width: 100%; height: 40px; margin: 0 auto; float: left; display: flex; justify-content: center;}
 
 #wrap {width: 1126px; height: auto; margin: 0 auto; padding-top: 6%;}
@@ -29,10 +29,10 @@
 .conte2 h2 {color: #222; cursor: pointer;}
 .conte2 h2:hover {color: #35C5EF; transition: .3s;}
 
-.cbtn {width: 150px; height: 40px; background-color: #35C5EF; float: left; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px; cursor: pointer;}
-.cbtn2 {width: 150px; height: 40px; background-color: #35C5EF; float: left; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px; margin-bottom: 30px; cursor: pointer;}
-.cbtn:hover {background-color: #000; transition: .3s;}
-.cbtn2:hover {background-color: #000; transition: .3s;}
+.cbtn {width: 150px; height: 40px; background-color: #35C5EF; float: left; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px; cursor: pointer; transition: .3s;}
+.cbtn2 {width: 150px; height: 40px; background-color: #35C5EF; float: left; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px; margin-bottom: 30px; cursor: pointer; transition: .3s;}
+.cbtn:hover {background-color: #000;}
+.cbtn2:hover {background-color: #000;}
 
 .push {width: 70%; height: 25px; float: left;}
 .icon {width: 30%; height: 25px; float: right;}
