@@ -72,6 +72,7 @@
 .instagram img:hover {opacity: 0.7;}
 
 .tag {width: 100%; height: auto; float: left; padding-left: 5px;}
+.tage {margin-bottom: 25px;}
 .tage li a {width: auto; height: 30px; border: 1px solid #cacaca; border-radius: 10px; float: left; margin: 5px; padding-top: 3px; transition: .3s;}
 .tage li a:hover {border: 1px solid #35C5EF;}
 
