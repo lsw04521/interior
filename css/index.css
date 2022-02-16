@@ -13,20 +13,20 @@
 #welcome p {color: #333;}
 
 #content {width: 1126px; height: 975px; margin: 0 auto;}
-.content_1 {width: 1126px; height: 300px;}
-.c1_text {float: right; width: 563px; height: 300px; text-align: right; padding-top: 60px; padding-right: 170px; transform: translateX(100px); transition: all 2s; opacity: 0;}
-.content_1 img {width: 563px; height: 300px; float: right; transform: translateX(-100px); transition: all 2s; opacity: 0;}
+.content_1 {width: 1126px; height: 300px; display: flex; justify-content: space-between;}
+.c1_text {float: right; width: 45%; height: 300px; text-align: right; padding-top: 60px; transform: translateX(100px); transition: all 2s; opacity: 0;}
+.content_1 img {width: 45%; height: 300px; float: right; transform: translateX(-100px); transition: all 2s; opacity: 0;}
 .content_1 img:hover {box-shadow: 10px 10px skyblue; transition: .2s;}
 
 
-.content_2 {width: 1126px; height: 300px; margin: 0 auto; text-align: left;}
-.content_2 img {width: 523px; height: 300px; float: left; transform: translateX(100px); transition: all 2s; opacity: 0;}
-.c2_text {float: left; width: 600px; height: 300px; text-align: left; padding-top: 60px; padding-left: 130px; transform: translateX(-100px); transition: all 2s; opacity: 0;}
+.content_2 {width: 1126px; height: 300px; margin: 0 auto; text-align: left; display: flex; justify-content: space-between;}
+.content_2 img {width: 47.5%; height: 300px; float: left; transform: translateX(100px); transition: all 2s; opacity: 0;}
+.c2_text {float: left; width: 40%; height: 300px; text-align: left; padding-top: 60px; transform: translateX(-100px); transition: all 2s; opacity: 0;}
 .content_2 img:hover {box-shadow: 10px 10px skyblue; transition: .2s;}
 
-.content_3 {width: 1126px; height: 300px; margin: 0 auto; text-align: right;}
-.content_3 img {width: 563px; height: 300px; float: right; transform: translateX(-100px); transition: all 2s; opacity: 0;}
-.c3_text {float: right; width: 563px; height: 300px; text-align: right; padding-top: 60px; padding-right: 170px; transform: translateX(100px); transition: all 2s; opacity: 0;}
+.content_3 {width: 1126px; height: 300px; margin: 0 auto; text-align: right; display: flex; justify-content: space-between;}
+.content_3 img {width: 45%; height: 300px; float: right; transform: translateX(-100px); transition: all 2s; opacity: 0;}
+.c3_text {float: right; width: 45%; height: 300px; text-align: right; padding-top: 60px; transform: translateX(100px); transition: all 2s; opacity: 0;}
 .content_3 img:hover {box-shadow: 10px 10px skyblue; transition: .2s;}
 
 .cbtn {width: 150px; height: 40px; background-color: #35C5EF; float: right; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px;}

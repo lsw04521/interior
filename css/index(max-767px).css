@@ -1,6 +1,6 @@
 @media (max-width:767px){
 
-    #wrap {width: 100%; height: auto; margin: 0;}
+    #wrap {width: 100%; height: auto; margin: 0 auto;}
     #warp p {color: #333;}
     
     #slider_background {max-width: 100%; height: 750px; background-image: url(../img/slider.jpeg); background-position: center; background-size: cover;}
@@ -10,30 +10,30 @@
     #welcome {width: 100%; height: 300px; margin: 0 auto; text-align: center; padding-top: 55px;}
     #welcome p {color: #333;}
     
-    #content {width: 100%; height: auto; margin: 0 auto; display: flex; flex-direction: column; padding-left: 10%;}
+    #content {width: 90%; height: auto; margin: 0 auto; display: flex; flex-direction: column; text-align: center; margin-bottom: 50px;}
 
     .content_1 {width:100%; height: auto;}
-    .c1_text {float: left; width: 90%; height: 300px; padding-top: 60px;}
-    .content_1 img {width: 90%; height: 300px;}
+    .c1_text {float: left; width: 100%; height: 300px;}
+    .content_1 img {width: 100%; height: 300px;}
     .content_1 img:hover {box-shadow: 10px 10px skyblue; transition: .2s;}
     
     
     .content_2 {width:100%; height: auto;}
-    .c2_text {float: left; width: 90%; height: 300px; padding-top: 60px;}
-    .content_2 img {width: 90%; height: 300px; float: left;}
+    .c2_text {float: left; width: 100%; height: 300px; padding-top: 60px;}
+    .content_2 img {width: 100%; height: 300px; float: left; margin-top: 30px;}
     .content_2 img:hover {box-shadow: 10px 10px skyblue; transition: .2s;}
     
     .content_3 {width:100%; height: auto;}
-    .c3_text {float: left; width: 90%; height: 300px; padding-top: 60px;}
-    .content_3 img {width: 90%; height: 300px; float: left;}
+    .c3_text {float: left; width: 100%; height: 300px; padding-top: 60px;}
+    .content_3 img {width: 100%; height: 300px; float: left;}
     .content_3 img:hover {box-shadow: 10px 10px skyblue; transition: .2s;}
     
-    .cbtn {width: 150px; height: 40px; background-color: #35C5EF; float: left; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px;}
-    .cbtn1 {width: 150px; height: 40px; background-color: #35C5EF; float: left; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px;}
+    .cbtn {width: 150px; height: 40px; margin: 0 auto; background-color: #35C5EF; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px;}
+    .cbtn1 {width: 150px; height: 40px; margin: 0 auto; background-color: #35C5EF; border-radius: 25px; text-align: center; color: #fff; font-weight: bold; padding-top: 8px;}
     .cbtn1:hover {background-color: black; transition: .2s;}
     .cbtn:hover {background-color: black; transition: .2s;}
     
-    #master {width: 100%; height: 220px; margin: 0 auto; text-align: center; padding-top: 55px; background-color: #b2dfe1;}
+    #master {width: 100%; margin: 0 auto; text-align: center; padding-top: 55px; background-color: #b2dfe1;}
     #master_background {width: 100%; height: 2050px; margin: 0 auto; background-color: #b2dfe1; display: flex; flex-direction: column; padding-left: 7.5%;}
     .master_img_box {width: 90%; height: auto; margin: 0 auto;}
     .master_img {width: 90%; height: 450px; margin: 20px 20px;}
